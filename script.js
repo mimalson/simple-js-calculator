@@ -16,5 +16,5 @@ if(isNaN(num1) || isNaN(num2)){
     }else if(operator == '*'){
         result = num1 * num2;
     }
-    Document.write(num1+operator+num2+'=' + result);
+    document.write(num1+operator+num2+'=' + result);
 }
